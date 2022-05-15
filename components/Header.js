@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image'
 import Search from '../assets/svg/search'
+import { ConnectButton } from 'web3uikit'
 
 const styles={
     header: "bg-[#17171A] text-white h-20 flex gap-[100px] w-full p-[30px]" ,
@@ -10,12 +11,13 @@ const styles={
     badge: "absolute opacity-0.1 top-0 h-1 w-1 right-0 bg-blue-500 text-white rounded-full ring-4", 
     inputContainer: "flex items-center justify-center p-2 rounded bg-[#171924]",
     input: "text-white w-70 outline-none ml-30 bg-transparent",
+    navLink: "text-white font-bold mx-[10px]",
 }
 
 function Header() {
   return (
     <div className={styles.header}>
-        <Image width={120} height={420} src='https://global-uploads.webflow.com/612d3e6930fdc54f36f7d349/618bc90b194993fb0fc26c86_cmc-2.png'></Image>
+        <Image width={"30px"} height={100} src='https://crypto-central.io/library/uploads/CoinMarketCap-Logo-300x300.png'></Image>
    
    
     <div className={styles.headerWrapper} >
@@ -77,7 +79,7 @@ function Header() {
         </nav>
 
         <div className='flex items-center'>
-            {/* <ConnectButton/> */}
+            <ConnectButton/>
             <div className={styles.inputContainer}>
                 {/* <Search/> */}
                 <Search/>

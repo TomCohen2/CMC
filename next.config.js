@@ -2,6 +2,6 @@
 module.exports = {
   reactStrictMode: true,
   images: {
-    domains: ['global-uploads.webflow.com','s2.coinmarketcap.com', 's3.coinmarketcap.com',"i0.wp.com"],
+    domains: ['crypto-central.io','global-uploads.webflow.com','s2.coinmarketcap.com', 's3.coinmarketcap.com',"i0.wp.com"],
   }
 }

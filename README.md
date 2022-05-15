@@ -18,6 +18,7 @@ ntl start
 #Summary:
 
 *Web 3.0 application on the Ethereum BlockChain
+<br/>
 *Next.js Project
 *Styling with Tailwind CSS 
 *CoinMarketCap API Usage

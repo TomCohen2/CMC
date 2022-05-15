@@ -20,12 +20,18 @@ ntl start
 *Web 3.0 application on the Ethereum BlockChain
 <br/>
 *Next.js Project
+<br/>
 *Styling with Tailwind CSS 
+<br/>
 *CoinMarketCap API Usage
+<br/>
 *Connect your wallet for in-app actions 
+<br/>
 *Netlify deployment
+<br/>
 *Storing data using the Moralis database
+<br/>
 
-**
-
-Thanks for viewing my project! **
+*****************************
+Thanks for viewing my project! 
+*****************************
